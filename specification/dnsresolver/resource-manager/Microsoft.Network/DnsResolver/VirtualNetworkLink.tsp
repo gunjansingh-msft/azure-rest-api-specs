@@ -25,7 +25,6 @@ model VirtualNetworkLink is Azure.ResourceManager.ProxyResource<
     NamePattern = ""
   >;
   #suppress "@azure-tools/typespec-azure-core/no-legacy-usage" "Legacy EntityTagProperty for back compatibility"
-  #suppress "@azure-tools/typespec-azure-core/no-legacy-usage" "Legacy EntityTagProperty for back compatibility"
   ...Legacy.EntityTagProperty;
 }
 

@@ -110,8 +110,8 @@ interface EdgeActions {
     EdgeActionAttachmentResponse
   >;
 
-  @doc("A long-running resource action.")
   #suppress "@azure-tools/typespec-azure-resource-manager/arm-post-operation-response-codes" "Operation matches 2024 baseline with 200, 202 responses"
+  @doc("A long-running resource action.")
   @removed(Versions.`2025-12-01-preview`)
   deleteAttachment is ArmResourceActionNoContentAsync<
     EdgeAction,

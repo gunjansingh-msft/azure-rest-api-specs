@@ -15,9 +15,9 @@ namespace PaloAltoNetworks.Cloudngfw;
 
 #suppress "@azure-tools/typespec-azure-resource-manager/arm-resource-interface-requires-decorator" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
 interface PaloAltoNetworksCloudngfwOperationsOperationGroup {
-  @doc("A long-running provider action.")
   #suppress "@azure-tools/typespec-azure-core/documentation-required" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
   #suppress "@azure-tools/typespec-azure-core/no-openapi" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
+  @doc("A long-running provider action.")
   @operationId("PaloAltoNetworksCloudngfwOperations_createProductSerialNumber")
   @autoRoute
   createProductSerialNumber is ArmProviderActionSync<
@@ -25,9 +25,9 @@ interface PaloAltoNetworksCloudngfwOperationsOperationGroup {
     Scope = SubscriptionActionScope,
     Parameters = {}
   >;
-  @doc("A long-running provider action.")
   #suppress "@azure-tools/typespec-azure-core/documentation-required" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
   #suppress "@azure-tools/typespec-azure-core/no-openapi" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
+  @doc("A long-running provider action.")
   @operationId("PaloAltoNetworksCloudngfwOperations_listCloudManagerTenants")
   @autoRoute
   listCloudManagerTenants is ArmProviderActionSync<
@@ -35,9 +35,9 @@ interface PaloAltoNetworksCloudngfwOperationsOperationGroup {
     Scope = SubscriptionActionScope,
     Parameters = {}
   >;
-  @doc("A long-running provider action.")
   #suppress "@azure-tools/typespec-azure-core/documentation-required" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
   #suppress "@azure-tools/typespec-azure-core/no-openapi" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
+  @doc("A long-running provider action.")
   @operationId("PaloAltoNetworksCloudngfwOperations_listProductSerialNumberStatus")
   @autoRoute
   listProductSerialNumberStatus is ArmProviderActionSync<
@@ -45,9 +45,9 @@ interface PaloAltoNetworksCloudngfwOperationsOperationGroup {
     Scope = SubscriptionActionScope,
     Parameters = {}
   >;
-  @doc("A long-running provider action.")
   #suppress "@azure-tools/typespec-azure-core/documentation-required" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
   #suppress "@azure-tools/typespec-azure-core/no-openapi" "FIXME: Update justification, follow aka.ms/tsp/conversion-fix for details"
+  @doc("A long-running provider action.")
   @operationId("PaloAltoNetworksCloudngfwOperations_listSupportInfo")
   @autoRoute
   listSupportInfo is ArmProviderActionSync<

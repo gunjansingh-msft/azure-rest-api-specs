@@ -21,8 +21,8 @@ interface CompoundAssessmentOperations {
   @added(WACAApiVersions.v2024_03_03_preview)
   delete is ArmResourceDeleteSync<CompoundAssessment>;
 
-  @doc("A long-running resource action.")
   #suppress "@azure-tools/typespec-azure-resource-manager/no-empty-model" "Download URL Post body is empty."
+  @doc("A long-running resource action.")
   @added(WACAApiVersions.v2024_03_03_preview)
   downloadUrl is ArmResourceActionAsync<CompoundAssessment, {}, DownloadUrl>;
 }
